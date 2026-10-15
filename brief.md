@@ -35,5 +35,10 @@ Data engineering involves collecting, organizing, and preparing data to ensure i
 Resource: NIST Big Data Interoperability Framework: Volume 1, Definitions - https://www.nist.gov/publications/nist-big-data-interoperability-framework-volume-1-definitions
 
 ## Misconception in My Track
+A common misconception in software engineering is the belief that software is reliable simply because it has passed initial tests. In reality, testing must continue throughout the entire development lifecycle and encompass a wide range of conditions, such as heavy workloads and unexpected failures. For 5G network services that support emergency response teams, periodic testing and robust error handling are critical to maintaining reliability under high-pressure conditions.
+
+Resource: Google SRE, Testing for Reliability - https://sre.google/sre-book/testing-reliability/
 
 ## Open Question
+How can software engineers design an emergency response service over 5G networks that remains reliable during periods of severe network congestion or partial network failure, while ensuring that emergency requests are neither lost nor processed more than once?
+
