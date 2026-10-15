@@ -20,10 +20,19 @@ Mobile applications that adopt an "offline-first" approach store critical data l
 Resource: Offline Synchronization - https://docs.mendix.com/refguide10/mobile/building-efficient-mobile-apps/offlinefirst-data/synchronization/
 
 ## Networking
+Quality of Service (QoS) assists networks in controlling traffic by assigning varying priority levels to diverse data types. In a 5G service designed for emergency responders, network teams can give precedence to essential communications, enabling them to access network resources during times of increased demand. Differentiated Services (DiffServ) employs traffic categorization and routing strategies to deliver varying service tiers. Nonetheless, these systems cannot generate infinite bandwidth or ensure that each message arrives instantaneously. Network teams need to set up and oversee policies diligently.
+
+Resource: RFC 2475: An Architecture for Differentiated Services - https://www.rfc-editor.org/rfc/rfc2475.html
 
 ## Cybersecurity
+Cybersecurity helps organizations manage risks to their systems, networks, and data. In the context of 5G services that support emergency response teams, robust authentication mechanisms and access controls ensure that only authorized users can access sensitive information. Encryption can be used to protect data in transit, while continuous monitoring helps relevant teams detect suspicious activity. Furthermore, applying security updates helps address known vulnerabilities. Although these measures reduce security risks, no single action can eliminate all threats; therefore, organizations must adopt a combination of preventive practices and monitoring tools.
+
+Resource: NIST Cybersecurity Framework (CSF) 2.0 - https://www.nist.gov/cyberframework
 
 ## Data
+Data engineering involves collecting, organizing, and preparing data to ensure it can be analyzed reliably. In the context of 5G network services designed to support emergency response teams, data derived from network activity can help these teams identify congestion patterns and understand service performance levels across different locations and times. Data quality verification is crucial, as incomplete or inaccurate records can lead to misleading conclusions. Furthermore, protecting sensitive information and controlling access to datasets are essential when handling operational data. Reliable data enables the relevant teams to make more accurate decisions and improve service planning.
+
+Resource: NIST Big Data Interoperability Framework: Volume 1, Definitions - https://www.nist.gov/publications/nist-big-data-interoperability-framework-volume-1-definitions
 
 ## Misconception in My Track
 
