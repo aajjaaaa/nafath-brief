@@ -12,12 +12,12 @@ Resource: RFC 9110: HTTP Semantics - https://www.rfc-editor.org/rfc/rfc9110.html
 ## AI
  Overfitting occurs when a machine learning model learns training data with excessive precision, resulting in poor performance when handling new, unseen data. Cross-validation evaluates a model's ability to generalize by training and validating it using different subsets of data. For instance, an AI system supporting emergency response teams should be tested against diverse datasets to verify whether its predictions remain reliable even when operating beyond the scope of the training examples used. Although cross-validation helps detect overfitting, it does not guarantee performance under all real-world conditions; therefore, these models require further testing before being deployed in sensitive or critical services.
 
-Source: Techniques for Mitigating Overfitting in Machine Learning: A Comprehensive Review, Taxonomy, and Practical Guide - https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1794271/full
+Resource: Techniques for Mitigating Overfitting in Machine Learning: A Comprehensive Review, Taxonomy, and Practical Guide - https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1794271/full
 
 ## Mobile
 Mobile applications that adopt an "offline-first" approach store critical data locally, enabling users to access it during network outages. Once connectivity is restored, local changes can be synchronized with the server. If synchronization fails, the application should retain the pending changes and allow for a retry. For emergency response teams, this approach helps safeguard critical field updates during periods of disconnection. Additionally, the application should clearly indicate instances where changes have not yet been synchronized, ensuring users are aware that the latest information may not be available on the server.
 
-Source: Offline Synchronization - https://docs.mendix.com/refguide10/mobile/building-efficient-mobile-apps/offlinefirst-data/synchronization/
+Resource: Offline Synchronization - https://docs.mendix.com/refguide10/mobile/building-efficient-mobile-apps/offlinefirst-data/synchronization/
 
 ## Networking
 
